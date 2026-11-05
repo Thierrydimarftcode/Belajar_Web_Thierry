@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Pengenal</title>
+    <style>
+        /* Mewarnai latar web agar abu-abu terang */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        /* Membentuk div menjadi kartu */
+        .kartu {
+            background-color: white;
+            width: 300px; /* Lebar kartu */
+            margin: 50px auto; /* Margin auto akan membuat kartu berada di TENGAH layar! */
+            padding: 20px;
+            border-radius: 10px; /* Ujung kartu melengkung */
+            text-align: center;
+
+            border: 1px solid #ddd;
+        }
+        /* Membentuk foto menjadi lingkaran! */
+        .foto {
+            border-radius: 50%;
+            width: 100px;
+        }
+        .pekerjaan {
+            color: gray;
+            margin-top: -10px; /* Menarik teks agak ke atas agar tidak terlalu jauh dari judul */
+        }
+
+        .btn-kontak {
+             background-color: #007bff; /* Warna latar biru */
+            color: white; /* Teks putih */
+            padding: 10px 20px; /* Busa dalam: 10px atas/bawah, 20px kiri/kanan*/
+
+            margin-left: 20px; /* Menjauh dari tombol pertama sejauh 20px */
+            border: none; /* Menghilangkan garis tepi bawaan yang kaku */
+            border-radius: 25px; /* Membuat ujungnya melengkung bundar */
+            font-size: 16px;
+            cursor: pointer; /* Mengubah kursor panah menjadi bentuk tangan saat diarahkan */
+        }
+    </style>
+
+</head>
+<body>
+    <div class="kartu">
+        <img src="T side Thierry.jpeg" alt="Foto Profil" class="foto">
+        <h2>Thierrydimar Widodo</h2>
+        <p class="pekerjaan">Software Engineer</p>
+        <p>Siswa XI RPL yang bercita-cita menambah ilmu ke Rusia, lalu membuat startup teknologi yang bermanfaat untuk Indonesia.</p>
+        <button class="btn-kontak">Hubungi Saya</button>
+    </div>
+</body>
+</html>
